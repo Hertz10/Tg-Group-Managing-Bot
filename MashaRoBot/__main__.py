@@ -98,7 +98,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-*『HELP BUTTONS HERE』*"""
+*『𝙂𝙊𝘿𝙕𝙄𝙇𝙇𝘼』*"""
 
 
 DONATE_STRING = """No need.. I'm rich"""
