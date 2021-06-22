@@ -185,7 +185,7 @@
          "value": ""
    },      
       "BAN_STICKER": {
-         "description": "ID of the sticker you want to use when banning people.",
+         "description": "ID of  the sticker you want to use when banning people.",
          "required": false,
          "value": ""
       },
