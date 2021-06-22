@@ -107,7 +107,7 @@ else:
     TOKEN = Config.TOKEN
 
     try:
-        OWNER_ID = int(Config.OWNER_ID)
+        OWNER_ID = 
     except ValueError:
         raise Exception("Your OWNER_ID variable is not a valid integer.")
 
@@ -140,13 +140,13 @@ else:
     URL = Config.URL
     PORT = Config.PORT
     CERT_PATH = Config.CERT_PATH
-    API_ID = Config.API_ID
+    API_ID = Config.TEL_API_ID
     API_HASH = Config.API_HASH
 
     DB_URI = Config.SQLALCHEMY_DATABASE_URI
     MONGO_DB_URI = Config.MONGO_DB_URI
     HEROKU_API_KEY = Config.HEROKU_API_KEY
-    HEROKU_APP_NAME = Config.HEROKU_APP_NAME
+    HEROKU_APP_NAME = ConfigHEROKU_APP_NAME
     TEMP_DOWNLOAD_DIRECTORY = Config.TEMP_DOWNLOAD_DIRECTORY
     OPENWEATHERMAP_ID = Config.OPENWEATHERMAP_ID
     VIRUS_API_KEY = Config.VIRUS_API_KEY
