@@ -302,7 +302,7 @@ def help_button(update, context):
                 reply_markup=InlineKeyboardMarkup(
                     [[InlineKeyboardButton(text="「 GO BACK 」", callback_data="help_back")]]
                 ),
-            )
+            
 
         elif prev_match:
             curr_page = int(prev_match.group(1))
